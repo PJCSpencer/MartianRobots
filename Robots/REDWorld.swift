@@ -25,8 +25,8 @@ class REDWorld
     {
         didSet
         {
-            if let robot = robot
-            { print(robot.description as Any) }
+            if let oldValue = oldValue
+            { print(oldValue.description as Any) }
         }
     }
 }
